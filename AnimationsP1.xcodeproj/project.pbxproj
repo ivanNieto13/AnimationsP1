@@ -11,8 +11,13 @@
 		7B332F1A291EF9DC00D1929F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B332F19291EF9DC00D1929F /* SceneDelegate.swift */; };
 		7B332F1C291EF9DC00D1929F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B332F1B291EF9DC00D1929F /* ViewController.swift */; };
 		7B332F1F291EF9DC00D1929F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B332F1D291EF9DC00D1929F /* Main.storyboard */; };
-		7B332F21291EF9DC00D1929F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B332F20291EF9DC00D1929F /* Assets.xcassets */; };
 		7B332F24291EF9DC00D1929F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B332F22291EF9DC00D1929F /* LaunchScreen.storyboard */; };
+		7B332F2D291EFA0900D1929F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7B332F2C291EFA0900D1929F /* Lottie */; };
+		7B332F2F291EFA1800D1929F /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B332F2E291EFA1800D1929F /* LoaderView.swift */; };
+		7B332F33291F086F00D1929F /* pizza.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B332F32291F086F00D1929F /* pizza.json */; };
+		7B332F37291F141E00D1929F /* sushi.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B332F35291F141E00D1929F /* sushi.json */; };
+		7B332F39291F1F8400D1929F /* orange.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B332F38291F1F8400D1929F /* orange.json */; };
+		7B332F3B291F2B0000D1929F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B332F3A291F2B0000D1929F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +26,13 @@
 		7B332F19291EF9DC00D1929F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7B332F1B291EF9DC00D1929F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B332F1E291EF9DC00D1929F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7B332F20291EF9DC00D1929F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B332F23291EF9DC00D1929F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B332F25291EF9DC00D1929F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B332F2E291EFA1800D1929F /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		7B332F32291F086F00D1929F /* pizza.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pizza.json; sourceTree = "<group>"; };
+		7B332F35291F141E00D1929F /* sushi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sushi.json; sourceTree = "<group>"; };
+		7B332F38291F1F8400D1929F /* orange.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orange.json; sourceTree = "<group>"; };
+		7B332F3A291F2B0000D1929F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B332F2D291EFA0900D1929F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +66,17 @@
 		7B332F16291EF9DC00D1929F /* AnimationsP1 */ = {
 			isa = PBXGroup;
 			children = (
+				7B332F32291F086F00D1929F /* pizza.json */,
+				7B332F38291F1F8400D1929F /* orange.json */,
+				7B332F35291F141E00D1929F /* sushi.json */,
 				7B332F17291EF9DC00D1929F /* AppDelegate.swift */,
 				7B332F19291EF9DC00D1929F /* SceneDelegate.swift */,
 				7B332F1B291EF9DC00D1929F /* ViewController.swift */,
 				7B332F1D291EF9DC00D1929F /* Main.storyboard */,
-				7B332F20291EF9DC00D1929F /* Assets.xcassets */,
+				7B332F3A291F2B0000D1929F /* Assets.xcassets */,
 				7B332F22291EF9DC00D1929F /* LaunchScreen.storyboard */,
 				7B332F25291EF9DC00D1929F /* Info.plist */,
+				7B332F2E291EFA1800D1929F /* LoaderView.swift */,
 			);
 			path = AnimationsP1;
 			sourceTree = "<group>";
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = AnimationsP1;
+			packageProductDependencies = (
+				7B332F2C291EFA0900D1929F /* Lottie */,
+			);
 			productName = AnimationsP1;
 			productReference = 7B332F14291EF9DC00D1929F /* AnimationsP1.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 7B332F0B291EF9DC00D1929F;
+			packageReferences = (
+				7B332F2B291EFA0900D1929F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 7B332F15291EF9DC00D1929F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B332F37291F141E00D1929F /* sushi.json in Resources */,
+				7B332F33291F086F00D1929F /* pizza.json in Resources */,
 				7B332F24291EF9DC00D1929F /* LaunchScreen.storyboard in Resources */,
-				7B332F21291EF9DC00D1929F /* Assets.xcassets in Resources */,
 				7B332F1F291EF9DC00D1929F /* Main.storyboard in Resources */,
+				7B332F3B291F2B0000D1929F /* Assets.xcassets in Resources */,
+				7B332F39291F1F8400D1929F /* orange.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B332F1C291EF9DC00D1929F /* ViewController.swift in Sources */,
+				7B332F2F291EFA1800D1929F /* LoaderView.swift in Sources */,
 				7B332F18291EF9DC00D1929F /* AppDelegate.swift in Sources */,
 				7B332F1A291EF9DC00D1929F /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B332F2B291EFA0900D1929F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B332F2C291EFA0900D1929F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B332F2B291EFA0900D1929F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7B332F0C291EF9DC00D1929F /* Project object */;
 }
